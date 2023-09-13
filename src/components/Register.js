@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export function Register(){
+export default function Register(){
 
     var [username, setUsername] = useState("");
     var [email, setEmail] = useState("");

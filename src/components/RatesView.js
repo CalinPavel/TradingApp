@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import { Trade } from "./Trade";
 import { BlotterView } from "./BlotterView";
+import { Dashboard } from './Dashboard';
 
-export function RatesView() {
+
+export default function RatesView() {
     var [counter, setCounter] = useState(0);
 
     return (
